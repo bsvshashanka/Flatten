@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Flatten</string>
+
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">Register</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="signout">SignOut</string>
+    <string name="name">Name</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="message">Message</string>
+    <string name="sender">Sender</string>
+    <string name="time">Time</string>
+    <string name="address">Address</string>
+    <string name="help_needed">Help Needed</string>
+
+</resources>

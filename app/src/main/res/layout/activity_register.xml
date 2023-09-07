@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/teal_200"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="40dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:orientation="vertical"
+
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textColor="@color/text_color"
+                android:text="@string/register"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_color"
+                app:boxStrokeColor="@color/black"
+                app:hintTextColor="@color/black"
+                android:layout_marginTop="20dp">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/register_name"
+                android:textColor="@color/text_color"
+                android:layout_marginTop="20dp"
+                android:hint="@string/name" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="@color/black"
+                app:hintTextColor="@color/black"
+                android:layout_marginTop="20dp">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/register_email"
+                    android:textColor="@color/text_color"
+                    android:layout_marginTop="20dp"
+                    android:hint="@string/email" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="@color/black"
+                android:textColor="@color/text_color"
+                app:hintTextColor="@color/black"
+                app:passwordToggleEnabled="true"
+                android:layout_marginTop="20dp">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/register_password"
+                    android:textColor="@color/text_color"
+                    android:layout_marginTop="20dp"
+                    android:inputType="textPassword"
+                    android:hint="@string/password" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="@color/black"
+                android:textColor="@color/text_color"
+                app:hintTextColor="@color/black"
+                android:layout_marginTop="20dp">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/register_contact"
+                    android:textColor="@color/text_color"
+                    android:layout_marginTop="20dp"
+                    android:hint="@string/contact_number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:id="@+id/register_button"
+                android:textColor="@color/text_color"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

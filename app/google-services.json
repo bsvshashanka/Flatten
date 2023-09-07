@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "471012347876",
+    "project_id": "flatten-cc38a",
+    "storage_bucket": "flatten-cc38a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471012347876:android:81c72ffcc057da4394c1f1",
+        "android_client_info": {
+          "package_name": "com.thedevelopers.Flatten"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471012347876-irv1d5kuentq68p8ua9t00ql9bmbkfqv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thedevelopers.Flatten",
+            "certificate_hash": "9a6919e942f5d84ec480d3d44b88f08c5d22606c"
+          }
+        },
+        {
+          "client_id": "471012347876-nnpk9qgosgo9vpkq5lv30vtogbvdu2od.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlr10TZhGcqwKSzga_m5shETo02P4gzi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471012347876-nnpk9qgosgo9vpkq5lv30vtogbvdu2od.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/requestFragment">
+
+    <fragment
+        android:id="@+id/requestFragment"
+        android:name="com.thedevelopers.Flatten.requestFragment"
+        android:label="fragment_request"
+        tools:layout="@layout/fragment_request" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.thedevelopers.Flatten.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.thedevelopers.Flatten.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+</navigation>
